@@ -142,7 +142,7 @@ Continuously working on React-based projects to build scalable and maintainable 
       <hr />
 
       {/* project section */}
-
+  
       <div className='row' id="projects">
         <h2 className="text-center  heading " style={{ color: '#7cf03d', fontFamily: 'Roboto, sans-serif', fontWeight: 700 }}>My Projects</h2>
 
@@ -160,7 +160,7 @@ Continuously working on React-based projects to build scalable and maintainable 
         </div>
         <div className='text-center rounded-3' style={{ width: '300px', height: '300px', border: '3px solid #7cf03d', backgroundColor: '#1f242d' }}>
           <h4 className='py-4' style={{ backgroundColor: '#7cf03d', color: '#1f242d' }}>Appexes – Responsive UI</h4>
-          <small className='py-4  d-block'>Created the responsive front-end design of Appexes from Figma prototypes, delivering a modern, user-friendly interface optimized for all devices.</small>
+          <small className='py-4  d-block'>Created the responsive Front-End design of Appexes from Figma prototypes, delivering a modern, user-friendly interface optimized for all devices.</small>
           <Button text="View Project" link="https://muneeb648.github.io/Appexes-Responsive-UI-Site/index.html" />
         </div>
       </div>
