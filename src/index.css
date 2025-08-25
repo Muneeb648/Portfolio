@@ -1,13 +1,181 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.background {
+  background-color: #1f242d;
+  font-family: sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.title {
+  font-size: 25px;
+  padding: 0px 15px;
+}
+.tagline{
+  font-size: 16px;
+}
+
+.nav-link:hover {
+  color: #7cf03d !important;
+}
+.sec1{
+   padding: 0px 30px;
+}
+.exp{
+   padding: 0px 30px;
+}
+
+.muneeb {
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.developer{
+  font-size: 17px;
+}
+.heading{
+  font-size: 28px;
+  padding: 8px 0px;
+}
+
+
+.dev {
+  transition: 0.5s;
+}
+
+.dev:hover {
+  color: #7cf03d !important;
+}
+.pic{
+  margin-top: 30px;
+}
+
+
+
+button {
+  padding: 10px 30px;
+  background-color: #7cf03d;
+  border: 2px solid #7cf03d;
+  box-shadow: 0px 0px 10px #7cf03d;
+  border-radius: 30px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: .5s;
+  color: #1f242d;
+}
+
+button:hover {
+  transform: scale(1.05);
+  background-color: transparent;
+  color: #7cf03d;
+  box-shadow: none;
+}
+
+.pic {
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border-right: 15px solid #7cf03d;
+    border-left: 15px solid #7cf03d;
+    border-radius: 50%;
+
+}
+
+
+.about {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.hr1 {
+  width: 100%;
+  margin-top: 200px;
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .hr1 {
+    margin-top: 100px;
+  }
+  .sec1{
+  padding: 0px 30px;
+  }
+  .exp{
+    padding: 0px 30px;
+  }
+  .about{
+     padding: 0px 30px;
+  }
+  
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+.title {
+  font-size: 35px; 
+   padding: 0px  50px;
+}
+.pic{
+  width: 250px;
+  height: 250px;
+}
+.muneeb{
+    font-size: 45px; 
+   padding-top: 75px;
+}
+.developer{
+  font-size: 30px;
+}
+.tagline{
+  font-size: 20px;
+}
+.hr1 {
+  margin-top: 10px;
+}
+.about {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.sec1{
+  padding: 0px 60px;
+}
+.exp{
+  padding: 0px 60px;
+}
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px){
+  .sec1{
+    padding: 0px 110px;
+  }
+.title {
+  font-size: 40px; 
+   padding: 0px  100px;
+}
+.pic{
+  width: 300px;
+  height: 300px;
+}
+.muneeb{
+    font-size: 50px; 
+}
+.developer{
+  font-size: 32px;
+}
+.tagline{
+  font-size: 22px;
+}
+.icons{
+  margin-top: 50px;
+}
+.hr1 {
+  margin-top: 10px;
+}
+.heading{
+  font-size: 40px;
+  padding: 48px 0px;
+}
+.about{
+  margin: 0px 100px;
+}
+.exp{
+  padding: 0px 100px;
+}
 }
