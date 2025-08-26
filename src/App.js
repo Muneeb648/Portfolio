@@ -20,6 +20,7 @@ function App() {
                 <a className="nav-link active home" href="#" style={{ color: '#7cf03d' }}>
                   Home
                 </a>
+                
               </li>
               <li className="nav-item">
                 <a className="nav-link text-white" href="#about">
@@ -68,7 +69,7 @@ function App() {
         <h2 className="text-center heading " style={{ color: '#7cf03d', fontFamily: 'Roboto, sans-serif', fontWeight: 700 }}>About</h2>
         <div className="row about" >
           <div className='col-lg-6 '>
-            <p className=' pt-1 fs-6 '>
+            <p className=' pt-1 fs-6 pra'>
               My name is Muneeb Ahmad, and I am a BS Computer Science student and passionate Frontend Web Developer with 1+ years of experience. I have extensive hands-on experience with Core JavaScript, React, HTML, CSS, Bootstrap, and Tailwind CSS, having built multiple projects that are responsive and mobile-friendly. <br /> <br />
               I am highly skilled in React and very comfortable working with Tailwind CSS, enabling me to create modern, visually appealing, and efficient web interfaces. I also have strong knowledge of Git and GitHub, which allows smooth team collaboration and seamless code sharing. <br /> <br />
               I enjoy turning ideas into clean, functional, and user-friendly web applications, delivering both performance and excellent user experience. <br />
